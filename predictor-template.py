@@ -18,7 +18,8 @@ predictorname = "Bandit" #Predictor Name For Embed Footer And Embed Title
 botprefix = "." #Bot Prefix
 
 #If u wanna make it so u need a specific role to use the commands set it here
-role = "Buyer"
+
+role = "Buyer" # Role Required To Run Commands
 
 # Dont Edit Anything Below This
 

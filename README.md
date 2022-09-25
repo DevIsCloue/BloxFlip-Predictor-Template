@@ -8,3 +8,6 @@
 5. Customize The Configuration To Your Needs
 6. Open `Install.bat` To Install Requirements
 7. Finally, Run `start.bat` Or Double Click `predictor-template.py` To Start The Program
+
+## Note: Feel Free To Fork The Repository Or Reupload It But Please Give Credit
+## Note 2: All The Descriptions For The Config Items Are in `predictor-template.py`

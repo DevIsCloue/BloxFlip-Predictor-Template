@@ -133,7 +133,7 @@ async def mines(ctx, round_id):
         row3 = mine11 + mine12 + mine13 + mine14 + mine15
         row4 = mine16 + mine17 + mine18 + mine19 + mine20
         row5 = mine21 + mine22 + mine23 + mine24 + mine25
-        info = str(predictor.randint(45, 90))
+        info = str(predictor.randint(45, 90) + "." + predictor.randint(45, 90))
         em = discord.Embed(color=successcolor)
         em.set_thumbnail(url=thumbnail)
         em.set_footer(text=f"{predictorname} Predictor©️ 2022 All Rights Reserved")
@@ -154,7 +154,7 @@ async def roulette(ctx):
     elif prediction == 'purple':
         embed_color = successcolor
         color_text = 'Yellow'
-    info = str(predictor.randint(45, 90))
+    info = str(predictor.randint(45, 90) + "." + predictor.randint(45, 90))
     em = discord.Embed(color=embed_color)
     em.add_field(name=f"{predictorname} Roulette Predictor", value=color_text + "\n\n**Accuracy**\n" + info + "%")
     em.set_thumbnail(url=thumbnail)
@@ -180,7 +180,7 @@ async def towers(ctx, round_id):
         row7 = predictor.choice(predictionvalues)
         row8 = predictor.choice(predictionvalues)
         em = discord.Embed(color=successcolor)
-        info = str(predictor.randint(45, 90))
+        info = str(predictor.randint(45, 90) + "." + predictor.randint(45, 90))
         em.set_thumbnail(url=thumbnail)
         em.set_footer(text=f"{predictorname} Predictor©️ 2022 All Rights Reserved")
         em.add_field(name=f"{predictorname} Towers Predictor", value=row1 + "\n" + row2 + "\n" + row3 + "\n" +row4 + "\n" +row5 + "\n" +row6 + "\n" +row7 + "\n" +row8 + "\n" + "\n**Accuracy**" + "\n" + info + "%")   

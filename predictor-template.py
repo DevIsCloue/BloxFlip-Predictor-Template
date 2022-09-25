@@ -9,7 +9,7 @@ from discord.ext import commands
 # If you decide to sell this add me at 0x8492#6751 and i can help you grow your server
 
 thumbnail = 'https://cdn.discordapp.com/attachments/1005824127774498848/1023636530293637250/standard_5.gif' #Picture In Embed
-token = "MTAyMjI4MTk1MjI2NDQ2NjQ4Mg.GOWjjp.3hWUEgqQUz2NoDt0wHxv1w55XYIC9bY0UbptYo" #Bot Token
+token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" #Bot Token
 errorcolor = 0xD30229 #Embed HEX Color If Round ID Is Invalid
 successcolor = 0xD30229 #Embed HEX Color If Round ID Is Valid
 predictedemoji = ":white_check_mark:" #Emoji For Predicted Tiles On Towers & Mines
@@ -28,7 +28,7 @@ scraper = cloudscraper.create_scraper()
 
 @bot.event
 async def on_ready():
-    print(f"\n\nBot Is Running\n\nCommands:\n{prefix}crash\n{prefix}roulette\n{prefix}mines roundid\n{prefix}towers roundid\n\nRole Required To Run Commands: {role}\n\nBot Template By DuxV2")
+    print(f"\n\nBot Is Running\n\nCommands:\n{botprefix}crash\n{botprefix}roulette\n{botprefix}mines roundid\n{botprefix}towers roundid\n\nRole Required To Run Commands: {role}\n\nBot Template By DuxV2")
 
 @bot.command()
 @commands.has_role(f"{role}")

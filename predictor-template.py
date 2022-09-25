@@ -28,7 +28,7 @@ scraper = cloudscraper.create_scraper()
 
 @bot.event
 async def on_ready():
-    print(f"\n\nBot Is Running\n\nCommands:\n.crash\n.roulette\n.mines roundid\n.towers roundid\n\nRole Required To Run Commands: {role}\n\nBot Template By DuxV2")
+    print(f"\n\nBot Is Running\n\nCommands:\n{prefix}crash\n{prefix}roulette\n{prefix}mines roundid\n{prefix}towers roundid\n\nRole Required To Run Commands: {role}\n\nBot Template By DuxV2")
 
 @bot.command()
 @commands.has_role(f"{role}")
